@@ -1,4 +1,5 @@
 import "../styles/Home.css";
+import natalia from "../assets/icons_img/natalia_funny.png"
 
 function Hero() {
   return (
@@ -41,7 +42,7 @@ function Hero() {
         <div className="div_img">          
             <img
               className="img_about"
-              src="/src/assets/icons_img/natalia_funny.png"
+              src={natalia}
               alt="foto pessoal"
             />
           </div>
