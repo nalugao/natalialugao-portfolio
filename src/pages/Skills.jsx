@@ -1,4 +1,6 @@
 import "../styles/Home.css";
+import html from "../assets/icons_img/html.png"
+
 
 function Skills() {
   return (
@@ -10,7 +12,7 @@ function Skills() {
           <h2>Consolidados:</h2>
           <ul class="skills-list">
             <li>
-              <img src="/src/assets/icons_img/html.png" alt="HTML logo" />
+              <img src={html} alt="HTML logo" />
               <p>HTML</p>
             </li>
             <li>
