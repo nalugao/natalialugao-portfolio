@@ -6,8 +6,9 @@ const exp_jobs = [
     company: "Bayer",
     role: "Analista Júnior de Operações Comerciais",
     highlights: [
-      "Aumentei a eficiência operacional em 15% ao aplicar soluções de automação e análise de dados em processos de pós-venda.",
-      "Redução de 5 horas semanais no tempo de processamento e diminuição de erros em relatórios corporativos.",
+      "Co-participação de mudança de sistemas. Contribui com a análise geral das funcionalidades, apoiei nos testes, criei manuais de procedimentos e gerenciei os incidentes.",
+      "Criação de Agente IA, o queal foi alimentado com informações das instruções do trabalho. Isso apoiou os analistas que acabam suprindo a posição de outro colaborador temporariamente.",
+      "Aumentei a eficiência operacional em 15% ao aplicar soluções de automação e análise de dados em processos de pós-venda. Isso gerou redução de 5 horas semanais no tempo de processamento e diminuição de erros em relatórios corporativos.",
       "Implementação de governança de dados para assegurar conformidade em contratos do setor público.",
     ],
   },
