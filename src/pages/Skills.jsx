@@ -10,6 +10,7 @@ import javascript from "../assets/icons_img/js.png"
 import react from "../assets/icons_img/reactjs.png"
 import postgresql from "../assets/icons_img/database.png"
 import algorithm from "../assets/icons_img/algorithm.png"
+import mongodb from "../assets/icons_img/mongodb.png"
 
 
 function Skills() {
@@ -66,6 +67,10 @@ function Skills() {
             <li>
               <img src={postgresql} alt="postgresql logo" />
               <p>PostgreSQL</p>
+            </li>
+            <li>
+              <img src={mongodb} alt="mongodb logo" />
+              <p>MongoDB</p>
             </li>
             <li>
               <img src={algorithm} alt="algoritmo logo" />
