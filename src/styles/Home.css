@@ -301,6 +301,7 @@ h1 {
 @media (min-width: 1024px) {
   h1 {
     font-size: 50px;
+    text-align: center;
   }
 }
 

@@ -20,7 +20,6 @@ function Skills() {
         <h1>Essas são minhas skills</h1>
 
         <div class="skill-category">
-          <h2>Consolidados:</h2>
           <ul class="skills-list">
             <li>
               <img src={html} alt="HTML logo" />
@@ -50,7 +49,6 @@ function Skills() {
         </div>
 
         <div class="skill-category">
-          <h2>Praticando:</h2>
           <ul class="skills-list">
             <li>
               <img src={python} alt="Python logo" />
