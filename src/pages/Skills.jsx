@@ -1,5 +1,15 @@
 import "../styles/Home.css";
 import html from "../assets/icons_img/html.png"
+import css from "../assets/icons_img/css-3.png"
+import tailwind from "../assets/icons_img/tailwind.svg"
+import git from "../assets/icons_img/git (1).png"
+import bootstrap from "../assets/icons_img/bootstrap.png"
+import linux from "../assets/icons_img/linux.png"
+import python from "../assets/icons_img/python.png"
+import javascript from "../assets/icons_img/js.png"
+import react from "../assets/icons_img/reactjs.png"
+import postgresql from "../assets/icons_img/database.png"
+import algorithm from "../assets/icons_img/algorithm.png"
 
 
 function Skills() {
@@ -16,23 +26,23 @@ function Skills() {
               <p>HTML</p>
             </li>
             <li>
-              <img src="/src/assets/icons_img/css-3.png" alt="CSS logo" />
+              <img src={css} alt="CSS logo" />
               <p>CSS</p>
             </li>
             <li>
-              <img src="/src/assets/icons_img/tailwind.svg" alt="tailwind logo" />
+              <img src={tailwind} alt="tailwind logo" />
               <p>Tailwind</p>
             </li>
             <li>
-              <img src="/src/assets/icons_img/git (1).png" alt="git logo" />
+              <img src={git} alt="git logo" />
               <p>Git</p>
             </li>
             <li>
-              <img src="/src/assets/icons_img/bootstrap.png" alt="bootstrap logo" />
+              <img src={bootstrap} alt="bootstrap logo" />
               <p>Bootstrap</p>
             </li>
             <li>
-              <img src="/src/assets/icons_img/linux.png" alt="linux logo" />
+              <img src={linux} alt="linux logo" />
               <p>Linux</p>
             </li>
           </ul>
@@ -42,23 +52,23 @@ function Skills() {
           <h2>Praticando:</h2>
           <ul class="skills-list">
             <li>
-              <img src="/src/assets/icons_img/python.png" alt="Python logo" />
+              <img src={python} alt="Python logo" />
               <p>Python</p>
             </li>
             <li>
-              <img src="/src/assets/icons_img/js.png" alt="javascript logo" />
+              <img src={javascript} alt="javascript logo" />
               <p>JavaScript</p>
             </li>
             <li>
-              <img src="/src/assets/icons_img/reactjs.png" alt="reactjs logo" />
+              <img src={react} alt="reactjs logo" />
               <p>ReactJS</p>
             </li>
             <li>
-              <img src="/src/assets/icons_img/database.png" alt="postgresql logo" />
+              <img src={postgresql} alt="postgresql logo" />
               <p>PostgreSQL</p>
             </li>
             <li>
-              <img src="/src/assets/icons_img/algorithm.png" alt="algoritmo logo" />
+              <img src={algorithm} alt="algoritmo logo" />
               <p>Algoritmos e Estrutura de Dados</p>
             </li>
           </ul>
