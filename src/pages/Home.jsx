@@ -1,5 +1,5 @@
 import "../styles/Home.css";
-import cv from "../assets/doc/CV_NATALIA_LUGAO_PT.pdf"
+import cv from "../assets/doc/cv_natalia_lugao_pt.pdf"
 
 function Home() {
   return (
@@ -13,8 +13,7 @@ function Home() {
         </p>
         <div className="buttons">
           <a
-            href="/src/assets/curriculum.pdf"
-            download={cv}
+            href={cv} download="cv_natalia_lugao_pt.pdf"
             className="btn_download"
           >
             Download CV
