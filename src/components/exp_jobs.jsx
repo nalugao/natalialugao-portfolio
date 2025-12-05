@@ -5,6 +5,7 @@ const exp_jobs = [
   {
     company: "Bayer",
     role: "Analista Júnior de Operações Comerciais",
+    period: "JAN 23 - ATUAL",
     highlights: [
       "Co-participação de mudança de sistemas. Contribui com a análise geral das funcionalidades, apoiei nos testes, criei manuais de procedimentos e gerenciei os incidentes.",
       "Criação de Agente IA, o queal foi alimentado com informações das instruções do trabalho. Isso apoiou os analistas que acabam suprindo a posição de outro colaborador temporariamente.",
@@ -15,6 +16,7 @@ const exp_jobs = [
   {
     company: "Bayer",
     role: "Estagiária",
+    period: "JAN 21 - DEZ 2022",
     highlights: [
       "Melhorei a tomada de decisão em vendas B2B ao criar ferramentas automatizadas de controle de estoque e gestão de vendas.",
       "Utilização de SAP e automações em Excel para entrada de dados e relatórios.",
@@ -41,10 +43,8 @@ export default function JobsList() {
         ))}
       </ul>
       <div className="project-content">
-        <h2 className="project-title">
-          {exp_jobs[selected].role}{" "}
-          
-        </h2>
+        <h2 className="project-title">{exp_jobs[selected].role} </h2>
+        <h3 className="project-subtitle">{exp_jobs[selected].period} </h3>
         <ul className="highlights-list">
           {exp_jobs[selected].highlights.map((item, i) => (
             <li key={i} className="highlight-item">

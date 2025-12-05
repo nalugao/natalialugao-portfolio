@@ -1,17 +1,21 @@
 .page {
   background-color: var(--bege-color);
+  box-sizing: border-box;
   min-height: 100vh;
   width: 100vw;
   color: var(--wine-color);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 5px;
 }
 
 .projects_content {
   width: 100%;
   max-width: 1200px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .buttons {
@@ -90,13 +94,13 @@
 }
 
 .container {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
   align-items: center;
   gap: 30px;
-  padding: 20px;
 }
 
 @media (min-width: 768px) {
@@ -290,11 +294,14 @@ h1 {
   font-size: 32px;
   gap: 0;
   margin: 0;
+      text-align: center;
+
 }
 
 @media (min-width: 640px) {
   h1 {
     font-size: 40px;
+    text-align: center;
   }
 }
 

@@ -12,6 +12,7 @@
 
 .projects-list {
   display: flex;
+  box-sizing: border-box;
   flex-direction: column;
   padding: 2rem 0.5rem;
   list-style: none;
@@ -56,7 +57,8 @@
 
 .project-content {
   flex: 1;
-  padding: 1rem;
+  box-sizing: border-box;
+  padding: 0.75rem;
   width: 100%;
   height: auto;
   min-height: 300px;
@@ -75,10 +77,16 @@
 }
 
 .project-title {
-  font-size: 1.25rem;
+  font-size: 1.7rem;
   font-weight: bold;
   color: var(--wine-color);
-  margin-bottom: 0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-subtitle {
+  font-size: 1.0rem;
+  color: #9ca3af;
+  margin-bottom: 1.5rem;
 }
 
 @media (min-width: 640px) {
@@ -92,22 +100,58 @@
 }
 
 .highlights-list {
-  font-size: 0.875rem;
-  line-height: 1.75;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  line-height: 1.8;
+  font-size: 1rem;
+  color: var(--wine-color);
 }
 
 .highlight-item {
   display: flex;
   align-items: flex-start;
-  color: var(--wine-color);
   margin-bottom: 1rem;
+  padding-left: 0.3rem;
 }
 
 .bullet {
-  color: var(--wine-color);
   margin-right: 0.75rem;
-  flex-shrink: 0;
+  font-weight: bold;
+  color: var(--wine-color);
+  font-size: 1rem;
+}
+
+.project-links {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.project-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 38px;
+  height: 38px;
+
+  border-radius: 10px;
+  background-color: #f2e8d8;
+  color: var(--wine-color);
+
+  text-decoration: none;
+  font-size: 1.2rem;
+
+  transition: all 0.25s ease;
+  border: 1px solid transparent;
+}
+
+.project-link:hover {
+  background-color: var(--wine-color);
+  color: var(--bege-color);
+  border-color: var(--wine-color);
+  transform: translateY(-2px);
+}
+
+.project-link i {
+  pointer-events: none;
 }
