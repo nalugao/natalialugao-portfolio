@@ -15,7 +15,7 @@ const exp_projects = [
   {
     company: "SkillsUp",
     role: "Product Designer & Front-end Developer ",
-    website: "https://skillsup-livid.vercel.app/index.html.com",
+    website: "https://skillsup-livid.vercel.app/index.html",
     Youtube:
       "https://www.youtube.https://www.youtube.com/watch?v=1y66SGXUl3o&list=PLGSIu-X0lEsAwN5t9iVMujf0iDEyBGMtf/watch?v=QzzBAoidNws&list=PLGSIu-X0lEsAmSVSW9CEh4uP_Pw7m14vr",
     Repositório:
@@ -29,7 +29,7 @@ const exp_projects = [
   {
     company: "AgroViva Web",
     role: "Product Designer & Front-end Developer",
-    website: "https://agrovivaweb.com",
+    website: "https://agrowebviva.vercel.app/",
     Youtube:
       "https://www.youtube.com/watch?v=QzzBAoidNws&list=PLGSIu-X0lEsAmSVSW9CEh4uP_Pw7m14vr",
     Repositório: "https://github.com/nalugao/agroviva-web",
@@ -52,6 +52,7 @@ const exp_projects = [
   {
     company: "CourseHub",
     role: "Full-Stack Developer",
+    description: "Código em construção",
     highlights: [
       "O CourseHub é uma plataforma de gerenciamento de cursos, ideal para quem gosta de estudar bastante mas não consegue gerenciar seus cursos e metas.",
       "Idealizei a ideia, funcionalidades e experiência do usuário. A aplicação está em construção",
@@ -78,6 +79,7 @@ export default function ProjectsList() {
       </ul>
       <div className="project-content">
         <h2 className="project-title">{exp_projects[selected].role}</h2>
+        <h2 className="project-subtitle">{exp_projects[selected].description}</h2>
 
         <div className="project-links">
           {exp_projects[selected].website && (
