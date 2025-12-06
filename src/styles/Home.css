@@ -10,6 +10,11 @@
   padding: 5px;
 }
 
+#userwayAccessibilityIcon {
+  margin-top: 700px !important; /* ajusta a posição vertical do ícone */
+  z-index: 9999 !important;   /* garante que o botão fique acima de outros elementos */
+}
+
 .projects_content {
   width: 100%;
   max-width: 1200px;

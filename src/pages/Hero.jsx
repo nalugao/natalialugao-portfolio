@@ -1,5 +1,5 @@
 import "../styles/Home.css";
-import natalia from "../assets/icons_img/nat.png"
+import natalia from "../assets/icons_img/nat_2.png"
 
 function Hero() {
   return (
