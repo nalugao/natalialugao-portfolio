@@ -10,10 +10,12 @@
   padding: 5px;
 }
 
-#userwayAccessibilityIcon {
+.userway_buttons_wrapper {
   margin-top: 700px !important; /* ajusta a posição vertical do ícone */
-  z-index: 9999 !important;   /* garante que o botão fique acima de outros elementos */
+  z-index: 2 !important; /*garante que o botão fique acima de outros elementos */
+
 }
+
 
 .projects_content {
   width: 100%;
@@ -301,8 +303,7 @@ h1 {
   font-size: 32px;
   gap: 0;
   margin: 0;
-      text-align: center;
-
+  text-align: center;
 }
 
 @media (min-width: 640px) {
