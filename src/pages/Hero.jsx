@@ -8,8 +8,8 @@ function Hero() {
         <div>
           <h1 className="h1_about">Sobre mim:</h1>
           <p className="p_about">
-            Tenho 5 anos na{" "}
-            <span className="p_highlight"> área de Negócios</span>, atualmente
+            Tenho 5 anos de experiência na{" "}
+            <span className="p_highlight"> área de Negócios</span> e atualmente
             sou estudante de{" "}
             <span className="p_highlight">Engenharia de Software</span>.
           </p>
