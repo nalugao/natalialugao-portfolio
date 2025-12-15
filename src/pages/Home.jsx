@@ -1,5 +1,5 @@
 import "../styles/Home.css";
-import cv from "../assets/doc/cv_natalia_lugao.pdf"
+import cv from "../assets/doc/CV_PT_NATALIA_LUGAO.pdf"
 
 function Home() {
   return (

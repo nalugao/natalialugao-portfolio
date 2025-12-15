@@ -17,9 +17,9 @@ const exp_projects = [
     role: "Product Designer & Front-end Developer ",
     website: "https://skillsup-livid.vercel.app/index.html",
     Youtube:
-      "https://www.youtube.https://www.youtube.com/watch?v=1y66SGXUl3o&list=PLGSIu-X0lEsAwN5t9iVMujf0iDEyBGMtf/watch?v=QzzBAoidNws&list=PLGSIu-X0lEsAmSVSW9CEh4uP_Pw7m14vr",
+      "https://www.youtube.com/watch?v=1y66SGXUl3o&list=PLGSIu-X0lEsAwN5t9iVMujf0iDEyBGMtf/watch?v=QzzBAoidNws&list=PLGSIu-X0lEsAmSVSW9CEh4uP_Pw7m14vr",
     Repositório:
-      "https://github.https://github.com/Sophia-Coelho/GS---Global-Solucion-/nalugao/agroviva-web",
+      "https://github.com/Sophia-Coelho/GS---Global-Solucion-/nalugao/agroviva-web",
     highlights: [
       "O projeto propõe integrar profissionais a um movimento que acredita no conhecimento compartilhado como solução para impulsionar o desenvolvimento humano e social — uma comunidade em que todos aprendem e ensinam simultaneamente.",
       "Idealizei o layout, funcionalidades e experiência do usuário. Desenvolvi o Front-End das páginas 'Ofereça uma Aula' e 'Meus Agendamentos', além de coordenar a organização e distribuição das tarefas do projeto. Também apoiou no refinamento do código",
@@ -56,7 +56,7 @@ const exp_projects = [
     highlights: [
       "O CourseHub é uma plataforma de gerenciamento de cursos, ideal para quem gosta de estudar bastante mas não consegue gerenciar seus cursos e metas.",
       "Idealizei a ideia, funcionalidades e experiência do usuário. A aplicação está em construção",
-      "Next.js, TypeScript, Tailwind CSS, Shadcn/UI, Recharts/Chart.js, Python + FastAPI, PostgreSQL, SQLAlchemy – ORM para facilitar a vida, Docker Compose,Google APIs (Calendar API) – integração principal",
+      "Next.js, TypeScript, Tailwind CSS, Python + FastAPI, PostgreSQL, SQLAlchemy – ORM, Docker Compose,Google APIs (Calendar API) – integração principal",
     ],
   },
 ];
