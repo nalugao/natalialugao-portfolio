@@ -9,7 +9,7 @@ const exp_projects = [
     Repositório: "https://github.com/nalugao/learning_API",
     highlights: [
       "O projeto do back-end tem como objetivo praticar a construção, teste e aplicação de API - Banco de Dados, para um website que contém a lista das mulheres na tecnologia. Essa listá é gerenciada pelo BD, e é possível incluir cadastro pelo própio site.",
-      "Node.js, JavaScript, HTTP, CRUP, JSON, MongoDB, Mongoose, Insomnia, dotenv, cors",
+      "Node.js, JavaScript, HTTP, CRUD, JSON, MongoDB, Mongoose, Insomnia, dotenv, cors",
     ],
   },
   {
